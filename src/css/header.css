@@ -42,3 +42,19 @@
 .nav-link.active::after {
   background: #747bff;
 }
+.nav-link {
+ display: inline-block;
+  padding: 12px 24px;
+  border: 2px solid rgb(74, 100, 178);
+  color: #090d0e;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #747bff;
+  color: white;
+}
